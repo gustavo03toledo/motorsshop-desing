@@ -1,0 +1,14 @@
+.carros-container{
+    margin: 30px;
+}
+
+.titulo-produtos{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.card-container{
+    display: flex;
+    gap: 15px;
+}
