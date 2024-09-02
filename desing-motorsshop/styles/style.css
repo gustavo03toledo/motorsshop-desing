@@ -1,0 +1,18 @@
+
+@import url("./reset.css");
+@import url("./header.css");
+@import url("./filtro.css");
+@import url("./main.css");
+@import url("./card.css");
+
+:root{
+    --cor-azul: #1A5EE1;
+    --cor-azul-hover:#648edd;
+}
+body{
+    font-family:"Inter", sans-serif; 
+    width: 100%;
+    
+}
+
+

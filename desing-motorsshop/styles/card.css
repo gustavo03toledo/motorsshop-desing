@@ -1,0 +1,50 @@
+.card{
+    background-color: rgba(185, 185, 185, 0.349);
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;flex-direction: column;
+}
+
+.foto-veiculo{
+    width: 300px;
+}
+
+.foto-veiculo:hover{
+    cursor: pointer;
+    scale: 1.1;
+}
+
+.nome-veiculo{
+    text-align: center;
+    font-weight: 600;
+    font-size: 17px;
+
+}
+.classe-veiculo{
+    text-align: center;
+    margin: 20px 0;
+}
+.texto-aluguel, .preco-alugel{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 5px;
+
+} 
+
+.btn-alugar{
+    text-decoration: none;
+    background-color: var(--cor-azul);
+    color: #fff;
+    margin: 10px auto;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-radius: 10px;
+}
+.btn-alugar:hover{
+    cursor: pointer;
+    background-color: var(--cor-azul-hover);
+    scale: 1.1;
+}

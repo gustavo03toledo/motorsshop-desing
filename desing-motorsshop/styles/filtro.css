@@ -1,0 +1,46 @@
+.filtro-container{
+    background-color: var(--cor-azul);
+    color: #fff;
+}
+
+.titulo-filtro{
+    text-align: center;
+    font-size: 30px;
+    padding:  20px 0;
+    font-weight: 500;
+}
+.container-btn-filtro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    gap: 20px;
+}
+
+
+.btn-filtro{
+    display: flex;
+    gap: 5px;
+    text-decoration: none;
+    color: #fff;
+    align-items: center;
+
+    background-color: #2355B5;
+    height: 40px;
+    padding: 0 20px;
+    border-radius: 10px;
+}
+
+.btn-filtro:hover{
+    cursor: pointer;
+    background-color: var(--cor-azul-hover);
+    scale: 1.1;
+}
+.img-btn-carro{
+    width: 20px;
+    margin-right: 5px;
+    padding: 8px 0;
+}
+.img-btn-moto{
+    width: 35px;
+}
